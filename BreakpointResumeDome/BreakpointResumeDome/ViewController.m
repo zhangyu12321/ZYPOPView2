@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "AFNetworking.h"
-
+#import "FlyImage.h"
 @interface ViewController ()
 {
     NSURLSessionDownloadTask * _downloadtask;
@@ -20,6 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+//    [self AFNDownLoad];
+
+    UIImageView *iconView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    [iconView setIconURL:[NSURL URLWithString:@"http://www.iconpng.com/png/user_interface/archive_add.png"]];
+    [self.view addSubview:iconView];
+    
+}
+- (void)AFNDownLoad{
     
     //网络监控句柄
     AFNetworkReachabilityManager *manager = [AFNetworkReachabilityManager sharedManager];
@@ -38,9 +47,7 @@
     
     //准备从远程下载文件. -> 请点击下面开始按钮启动下载任务
     [self downFileFromServer];
-    
 }
-
 - (void)downFileFromServer{
     
     //  远程地址

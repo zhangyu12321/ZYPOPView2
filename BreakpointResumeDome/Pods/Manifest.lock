@@ -14,13 +14,26 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - FlyImage (1.0):
+    - AFNetworking (~> 3.1)
+    - FlyImage/Core (= 1.0)
+  - FlyImage/Core (1.0):
+    - AFNetworking (~> 3.1)
+  - UMengAnalytics (3.6.6)
+  - UMengAnalytics-NO-IDFA (3.6.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
+  - FlyImage (~> 1.0)
+  - UMengAnalytics
+  - UMengAnalytics-NO-IDFA
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FlyImage: 4a39cbc95b5a40cbec6a5ea5747f978e50c8e732
+  UMengAnalytics: 4bf831415146b9c57cb10be65fbd43462ef8cf65
+  UMengAnalytics-NO-IDFA: 6d02561a00579b2e37718f204eb81347df5d7b8b
 
-PODFILE CHECKSUM: 124dd0f956e40a71302cb750ba2ef5a6dd37ad13
+PODFILE CHECKSUM: a0e946101fc1fa6a18fc8656c80c5e75a3954b9d
 
 COCOAPODS: 1.2.0

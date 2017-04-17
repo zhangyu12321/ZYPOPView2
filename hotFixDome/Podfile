@@ -1,0 +1,4 @@
+platform:ios,'7.0'
+target 'hotFixDome' do
+pod 'JSPatch'
+end

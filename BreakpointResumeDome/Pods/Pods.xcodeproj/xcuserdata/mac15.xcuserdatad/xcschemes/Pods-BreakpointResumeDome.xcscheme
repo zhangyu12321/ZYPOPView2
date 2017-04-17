@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '41D76AEF71B9BE30A09952A0076E8C3A'
+               BlueprintIdentifier = '3297C5E63501D3917446744C3721BE3C'
                BlueprintName = 'Pods-BreakpointResumeDome'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-BreakpointResumeDome.a'>

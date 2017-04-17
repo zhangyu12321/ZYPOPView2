@@ -1,0 +1,10 @@
+{
+  "xcodeVersion" : "Xcode 8.2\nBuild version 8C38",
+  "commitish" : "3.5.1",
+  "iOS" : [
+    {
+      "name" : "Alamofire",
+      "md5" : "f202675fcd3127694e232ce4e646095a"
+    }
+  ]
+}

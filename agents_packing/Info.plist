@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>a01</key>
+	<dict>
+		<key>质量新闻网</key>
+		<dict>
+			<key>Share</key>
+			<dict>
+				<key>QQ</key>
+				<dict>
+					<key>appKey</key>
+					<string>1105614801</string>
+					<key>appSecret</key>
+					<string></string>
+				</dict>
+				<key>WeChat</key>
+				<dict>
+					<key>appKey</key>
+					<string>wx1a27195e7fc56db8</string>
+					<key>appSecret</key>
+					<string>ae3822204431e04f7575c2016dd81343</string>
+				</dict>
+			</dict>
+			<key>UMeng</key>
+			<dict>
+				<key>QQ</key>
+				<dict>
+					<key>URL Schemes</key>
+					<string>QQ41e657d1</string>
+				</dict>
+				<key>WeChat</key>
+				<dict>
+					<key>URL Schemes</key>
+					<string>wx1a27195e7fc56db8</string>
+				</dict>
+			</dict>
+			<key>appName</key>
+			<string>舆情秘书</string>
+			<key>kPlatform</key>
+			<string>19s</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

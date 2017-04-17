@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		281BAF121E7B6C9300450433 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 281BAF111E7B6C9300450433 /* main.m */; };
+		281BAF151E7B6C9300450433 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 281BAF141E7B6C9300450433 /* AppDelegate.m */; };
+		281BAF181E7B6C9300450433 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 281BAF171E7B6C9300450433 /* ViewController.m */; };
+		281BAF1B1E7B6C9300450433 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281BAF191E7B6C9300450433 /* Main.storyboard */; };
+		281BAF1D1E7B6C9300450433 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 281BAF1C1E7B6C9300450433 /* Assets.xcassets */; };
+		281BAF201E7B6C9300450433 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 281BAF1E1E7B6C9300450433 /* LaunchScreen.storyboard */; };
+		281BAF2B1E7B6C9300450433 /* CATraneDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281BAF2A1E7B6C9300450433 /* CATraneDemoTests.m */; };
+		281BAF361E7B6C9300450433 /* CATraneDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 281BAF351E7B6C9300450433 /* CATraneDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		281BAF271E7B6C9300450433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281BAF051E7B6C9300450433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281BAF0C1E7B6C9300450433;
+			remoteInfo = CATraneDemo;
+		};
+		281BAF321E7B6C9300450433 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 281BAF051E7B6C9300450433 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 281BAF0C1E7B6C9300450433;
+			remoteInfo = CATraneDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		281BAF0D1E7B6C9300450433 /* CATraneDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CATraneDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		281BAF111E7B6C9300450433 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		281BAF131E7B6C9300450433 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		281BAF141E7B6C9300450433 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		281BAF161E7B6C9300450433 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		281BAF171E7B6C9300450433 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		281BAF1A1E7B6C9300450433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		281BAF1C1E7B6C9300450433 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		281BAF1F1E7B6C9300450433 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		281BAF211E7B6C9300450433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281BAF261E7B6C9300450433 /* CATraneDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATraneDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281BAF2A1E7B6C9300450433 /* CATraneDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATraneDemoTests.m; sourceTree = "<group>"; };
+		281BAF2C1E7B6C9300450433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		281BAF311E7B6C9300450433 /* CATraneDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CATraneDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		281BAF351E7B6C9300450433 /* CATraneDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CATraneDemoUITests.m; sourceTree = "<group>"; };
+		281BAF371E7B6C9300450433 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		281BAF0A1E7B6C9300450433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BAF231E7B6C9300450433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BAF2E1E7B6C9300450433 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281BAF041E7B6C9300450433 = {
+			isa = PBXGroup;
+			children = (
+				281BAF0F1E7B6C9300450433 /* CATraneDemo */,
+				281BAF291E7B6C9300450433 /* CATraneDemoTests */,
+				281BAF341E7B6C9300450433 /* CATraneDemoUITests */,
+				281BAF0E1E7B6C9300450433 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		281BAF0E1E7B6C9300450433 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				281BAF0D1E7B6C9300450433 /* CATraneDemo.app */,
+				281BAF261E7B6C9300450433 /* CATraneDemoTests.xctest */,
+				281BAF311E7B6C9300450433 /* CATraneDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281BAF0F1E7B6C9300450433 /* CATraneDemo */ = {
+			isa = PBXGroup;
+			children = (
+				281BAF131E7B6C9300450433 /* AppDelegate.h */,
+				281BAF141E7B6C9300450433 /* AppDelegate.m */,
+				281BAF161E7B6C9300450433 /* ViewController.h */,
+				281BAF171E7B6C9300450433 /* ViewController.m */,
+				281BAF191E7B6C9300450433 /* Main.storyboard */,
+				281BAF1C1E7B6C9300450433 /* Assets.xcassets */,
+				281BAF1E1E7B6C9300450433 /* LaunchScreen.storyboard */,
+				281BAF211E7B6C9300450433 /* Info.plist */,
+				281BAF101E7B6C9300450433 /* Supporting Files */,
+			);
+			path = CATraneDemo;
+			sourceTree = "<group>";
+		};
+		281BAF101E7B6C9300450433 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				281BAF111E7B6C9300450433 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		281BAF291E7B6C9300450433 /* CATraneDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				281BAF2A1E7B6C9300450433 /* CATraneDemoTests.m */,
+				281BAF2C1E7B6C9300450433 /* Info.plist */,
+			);
+			path = CATraneDemoTests;
+			sourceTree = "<group>";
+		};
+		281BAF341E7B6C9300450433 /* CATraneDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				281BAF351E7B6C9300450433 /* CATraneDemoUITests.m */,
+				281BAF371E7B6C9300450433 /* Info.plist */,
+			);
+			path = CATraneDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		281BAF0C1E7B6C9300450433 /* CATraneDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281BAF3A1E7B6C9300450433 /* Build configuration list for PBXNativeTarget "CATraneDemo" */;
+			buildPhases = (
+				281BAF091E7B6C9300450433 /* Sources */,
+				281BAF0A1E7B6C9300450433 /* Frameworks */,
+				281BAF0B1E7B6C9300450433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CATraneDemo;
+			productName = CATraneDemo;
+			productReference = 281BAF0D1E7B6C9300450433 /* CATraneDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		281BAF251E7B6C9300450433 /* CATraneDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281BAF3D1E7B6C9300450433 /* Build configuration list for PBXNativeTarget "CATraneDemoTests" */;
+			buildPhases = (
+				281BAF221E7B6C9300450433 /* Sources */,
+				281BAF231E7B6C9300450433 /* Frameworks */,
+				281BAF241E7B6C9300450433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281BAF281E7B6C9300450433 /* PBXTargetDependency */,
+			);
+			name = CATraneDemoTests;
+			productName = CATraneDemoTests;
+			productReference = 281BAF261E7B6C9300450433 /* CATraneDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		281BAF301E7B6C9300450433 /* CATraneDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 281BAF401E7B6C9300450433 /* Build configuration list for PBXNativeTarget "CATraneDemoUITests" */;
+			buildPhases = (
+				281BAF2D1E7B6C9300450433 /* Sources */,
+				281BAF2E1E7B6C9300450433 /* Frameworks */,
+				281BAF2F1E7B6C9300450433 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				281BAF331E7B6C9300450433 /* PBXTargetDependency */,
+			);
+			name = CATraneDemoUITests;
+			productName = CATraneDemoUITests;
+			productReference = 281BAF311E7B6C9300450433 /* CATraneDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		281BAF051E7B6C9300450433 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = MAC15;
+				TargetAttributes = {
+					281BAF0C1E7B6C9300450433 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					281BAF251E7B6C9300450433 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 281BAF0C1E7B6C9300450433;
+					};
+					281BAF301E7B6C9300450433 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 281BAF0C1E7B6C9300450433;
+					};
+				};
+			};
+			buildConfigurationList = 281BAF081E7B6C9300450433 /* Build configuration list for PBXProject "CATraneDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 281BAF041E7B6C9300450433;
+			productRefGroup = 281BAF0E1E7B6C9300450433 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				281BAF0C1E7B6C9300450433 /* CATraneDemo */,
+				281BAF251E7B6C9300450433 /* CATraneDemoTests */,
+				281BAF301E7B6C9300450433 /* CATraneDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281BAF0B1E7B6C9300450433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281BAF201E7B6C9300450433 /* LaunchScreen.storyboard in Resources */,
+				281BAF1D1E7B6C9300450433 /* Assets.xcassets in Resources */,
+				281BAF1B1E7B6C9300450433 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BAF241E7B6C9300450433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BAF2F1E7B6C9300450433 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		281BAF091E7B6C9300450433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281BAF181E7B6C9300450433 /* ViewController.m in Sources */,
+				281BAF151E7B6C9300450433 /* AppDelegate.m in Sources */,
+				281BAF121E7B6C9300450433 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BAF221E7B6C9300450433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281BAF2B1E7B6C9300450433 /* CATraneDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		281BAF2D1E7B6C9300450433 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281BAF361E7B6C9300450433 /* CATraneDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		281BAF281E7B6C9300450433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281BAF0C1E7B6C9300450433 /* CATraneDemo */;
+			targetProxy = 281BAF271E7B6C9300450433 /* PBXContainerItemProxy */;
+		};
+		281BAF331E7B6C9300450433 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 281BAF0C1E7B6C9300450433 /* CATraneDemo */;
+			targetProxy = 281BAF321E7B6C9300450433 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		281BAF191E7B6C9300450433 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281BAF1A1E7B6C9300450433 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		281BAF1E1E7B6C9300450433 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				281BAF1F1E7B6C9300450433 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		281BAF381E7B6C9300450433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		281BAF391E7B6C9300450433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		281BAF3B1E7B6C9300450433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATraneDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQMS.CATraneDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		281BAF3C1E7B6C9300450433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CATraneDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQMS.CATraneDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		281BAF3E1E7B6C9300450433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CATraneDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQMS.CATraneDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATraneDemo.app/CATraneDemo";
+			};
+			name = Debug;
+		};
+		281BAF3F1E7B6C9300450433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CATraneDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQMS.CATraneDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CATraneDemo.app/CATraneDemo";
+			};
+			name = Release;
+		};
+		281BAF411E7B6C9300450433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CATraneDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQMS.CATraneDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CATraneDemo;
+			};
+			name = Debug;
+		};
+		281BAF421E7B6C9300450433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CATraneDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YQMS.CATraneDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CATraneDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		281BAF081E7B6C9300450433 /* Build configuration list for PBXProject "CATraneDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281BAF381E7B6C9300450433 /* Debug */,
+				281BAF391E7B6C9300450433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		281BAF3A1E7B6C9300450433 /* Build configuration list for PBXNativeTarget "CATraneDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281BAF3B1E7B6C9300450433 /* Debug */,
+				281BAF3C1E7B6C9300450433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		281BAF3D1E7B6C9300450433 /* Build configuration list for PBXNativeTarget "CATraneDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281BAF3E1E7B6C9300450433 /* Debug */,
+				281BAF3F1E7B6C9300450433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		281BAF401E7B6C9300450433 /* Build configuration list for PBXNativeTarget "CATraneDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				281BAF411E7B6C9300450433 /* Debug */,
+				281BAF421E7B6C9300450433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 281BAF051E7B6C9300450433 /* Project object */;
+}
